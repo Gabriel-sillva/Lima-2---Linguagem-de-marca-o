@@ -35,7 +35,7 @@ p, li {
 
 /* Imagens */
 img {
-    width: 300px;
+    max-width: 300px;
     height: auto;
     display: block;
     margin: 20px auto;
