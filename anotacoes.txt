@@ -1,0 +1,57 @@
+Tenho qye melhorar o meu site.
+
+Não posso implementar DIV.
+
+Sempre Adicionar / em tag sem fechamento.
+
+
+Estrutura do site 
+
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+    <title>Document</title>
+</head>
+<body>
+    <header>
+            <!--=== Cabeçalho ===-->
+    </header>
+        
+        <main>
+            <!--=== Conteudo do site ===-->
+        </main>
+    
+    <footer>
+            <!--=== Rodapé ===-->
+    </footer>
+</body>
+</html>
+
+
+
+
+
+ <section>
+            <h2>Personagens</h2>
+
+            
+                <section class="cards-container">
+                    <section class="card">
+                        <img src="img/melvin_visual.png" alt="Imagem 1">
+                            <h3>Melvin </br> O Protetor de Duas Espadas</h3>
+                                <p>Descrição do card 1</p>
+                    </section>
+
+                                <section class="card">
+                                    <img src="img/kel_visual.png" alt="Imagem 2">
+                                        <h3>Card 2</h3>
+                                            <p>Descrição do card 2</p>
+                                </section>
+            </section>
+
+                   
+
+    
+        </section>
