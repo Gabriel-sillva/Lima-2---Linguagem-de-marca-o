@@ -1,12 +1,12 @@
 /* Importando a fonte */
 @import url('https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;700&display=swap');
 
-/* --- Estilo global --- */
+/* --- Estilo global do meu site  --- */
 body {
     margin: 0;
     padding: 0;
     font-family: 'Playfair Display', serif;
-    background: radial-gradient(circle at center, #1a1a1a 0%, #0a0a0a 100%); /* fundo sombrio */
+    background: radial-gradient(circle at center, #1a1a1a 0%, #0a0a0a 100%); /* fundo  */
     color: #f5f5f5;
     line-height: 1.6;
 }
@@ -15,7 +15,7 @@ body {
 header, footer {
     text-align: center;
     padding: 20px;
-    background: linear-gradient(135deg, #1b1b1b, #4b1f0f, #7b2b12); /* degrade apocalíptico fogo/ruínas */
+    background: linear-gradient(135deg, #1b1b1b, #4b1f0f, #7b2b12); /* degrade */
     color: #fff;
     font-weight: bold;
     text-shadow: 0 0 10px #ff4500, 2px 2px 5px #000;
@@ -53,7 +53,7 @@ h2 {
     margin-top: 30px;
     margin-bottom: 15px;
     color: #ff5e00; /* laranja fogo */
-    text-shadow: 0 0 6px #ff944d, 1px 1px 3px #000;
+    
 }
 
 h3 {
@@ -88,7 +88,7 @@ img {
 /* Destaque para palavras importantes */
 strong {
     color: #ff5e00; /* destaque em fogo */
-    text-shadow: 0 0 4px #ff944d;
+   
 }
 
 /* Rodapé */

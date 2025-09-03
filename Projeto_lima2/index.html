@@ -10,21 +10,20 @@
 
   <header>
     <h1>Galeria de Personagens</h1>
-          <nav>
-              <a href="Melvinn.html">Melvin</a>
-              <a href="kel.html">Kel</a>
-              <a href="durocks.html">Du Rocks</a>
-              <a href="emy.html">Emy</a>
-              <a href="hana.html">Hana</a>
-          </nav>
-
+    <nav>
+      <a href="Melvinn.html">Melvin</a>
+      <a href="kel.html">Kel</a>
+      <a href="durocks.html">Du Rocks</a>
+      <a href="emy.html">Emy</a>
+      <a href="hana.html">Hana</a>
+    </nav>
   </header>
-  <main>
-  <section class="grid">
 
-    <!-- Card 1: Melvin -->
-    <section class="scene">
-      <section class="card melvin">
+  <main>
+    <section class="grid">
+
+      <!-- Card 1: Melvin -->
+      <div class="card melvin scene">
         <section class="face front">
           <img src="img/melvin_visual.png" alt="melvin segurando duas espadas">
           <h2>Melvin</h2>
@@ -33,12 +32,10 @@
           <h2>Biografia</h2>
           <p>Protetor nato, luta para defender os mais fracos e acredita na força da união.</p>
         </section>
-      </section>
-    </section>
+      </div>
 
-    <!-- Card 2: Kelvin -->
-    <section class="scene">
-      <section class="card kelvin">
+      <!-- Card 2: Kelvin -->
+      <div class="card kelvin scene">
         <section class="face front">
           <img src="img/kel_visual.png" alt="kel segurando uma katana">
           <h2>Kel</h2>
@@ -47,12 +44,10 @@
           <h2>Biografia</h2>
           <p>Misterioso e estratégico, prefere agir sozinho ou em silêncio, mas é leal ao grupo.</p>
         </section>
-      </section>
-    </section>
+      </div>
 
-    <!-- Card 3: Du Rocks -->
-    <section class="scene">
-      <section class="card du-rocks">
+      <!-- Card 3: Du Rocks -->
+      <div class="card du-rocks scene">
         <section class="face front">
           <img src="img/Du_rocks_visual.png" alt="Du Rocks segurando uma guitarra">
           <h2>Du Rocks</h2>
@@ -61,12 +56,10 @@
           <h2>Biografia</h2>
           <p>Ele é o “escudo” do grupo. Humor ácido e espírito artístico, misturando espírito guerreiro com paixão musical.</p>
         </section>
-      </section>
-    </section>
+      </div>
 
-    <!-- Card 4: Emy -->
-    <section class="scene">
-      <section class="card emy">
+      <!-- Card 4: Emy -->
+      <div class="card emy scene">
         <section class="face front">
           <img src="img/emy_visual.png" alt="Emy segurando adagas">
           <h2>Emy</h2>
@@ -75,12 +68,10 @@
           <h2>Biografia</h2>
           <p>Fria, calculista e estratégica, sempre um passo à frente dos inimigos e leal ao grupo.</p>
         </section>
-      </section>
-    </section>
+      </div>
 
-    <!-- Card 5: Hana -->
-    <section class="scene">
-      <section class="card hana">
+      <!-- Card 5: Hana -->
+      <div class="card hana scene">
         <section class="face front">
           <img src="img/Hana_visual.png" alt="hana segurando fogos de artifício ">
           <h2>Hana</h2>
@@ -89,38 +80,13 @@
           <h2>Biografia</h2>
           <p>Brincalhona e imprevisível, gosta de criar situações inesperadas no campo de batalha.</p>
         </section>
-      </section>
+      </div>
+
     </section>
-
-  </section>
-</main>
-
+  </main>
 
   <footer>
     <p>₢ Gabriel Silva 2025</p>
   </footer>
-
-  <script>
-  // Seleciona todos os cards
-  document.querySelectorAll('.card').forEach(card => {
-    // Adiciona evento para cada botão dentro do card
-    card.querySelectorAll('.flip').forEach(btn => {
-      btn.addEventListener('click', e => {
-        e.stopPropagation(); // Impede que o clique propague para o card
-        card.classList.toggle('is-flipped'); // Alterna flip
-      });
-    });
-
-    // Opcional: clique em qualquer lugar do card para virar
-    card.addEventListener('click', e => {
-      // Ignora se clicou no botão (já tratado acima)
-      if (!e.target.classList.contains('flip')) {
-        card.classList.toggle('is-flipped');
-      }
-    });
-  });
-</script>
-
-
 </body>
 </html>
